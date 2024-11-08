@@ -10,6 +10,9 @@ inputs:
   target_repo_url:
     description: "Target url"
     required: true
+  git_push_options:
+    description: "Other commands args to pass to git push command (not escaped)"
+    required: false
   ssh_username:
     description: "Username for ssh connection"
     required: false
